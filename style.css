@@ -57,10 +57,6 @@ li{
     color: #000;
 }
 
-.link-ul:hover{
-    color: blueviolet;
-    font-size: 20px;
-}
 
 .link-ul:hover{
     color: #fb5283;
@@ -215,9 +211,6 @@ h4{
 #div-box{
     transform: translateX(70px) 
 }
-
-
-   
 }
 
   
