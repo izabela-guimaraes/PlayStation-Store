@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo-ps.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+            <img class="logo" src="./img/logo.png" alt="Logo PlayStation">
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-li"><a class="link-ul" href="">Consoles</a></li>
+                    <li  class="nav-li"><a class="link-ul" href="">Accessories</a></li>
+                    <li  class="nav-li"><a class="link-ul" href="">Controls</a></li>
+                    <li  class="nav-li"><a class="link-ul" href="">others</a></li>
+                </ul>
+            </nav>
+            <img src="./img/menu.png" alt="menu-icon"  class="menu-icon" onclick="showmenu()">
+        </div>
+
+        <div id="div-main">
+
+            <div id="column-1">
+                <h2>PS5 Dualshok</h2>
+                <h3>Wireless Controller for PlayStation</h3>
+                <p>Original control</p>
+                <h4>R$ 222,50</h4>
+                <button class="buy-now">Buy now</button>
+            </div>
+
+            <div id="div-column-2">
+                <img class="controller" src="./img/controller.png" alt="controls">
+                <div id="div-box"></div>
+                <button class="add-cart">
+                    <img src="./img/add.png" alt="add to cart">
+                </button>
+            </div>
+            
+        </div>
+
+        <div class="social-link">
+            <img src="./img/fb.png" alt="Facebook">
+            <img src="./img/ig.png" alt="Instagram">
+            <img src="./img/tw.png" alt="Twitter">
+        </div>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+</html>
